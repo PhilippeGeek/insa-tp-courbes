@@ -2,12 +2,42 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="29.0" y="492.0">edu.insalyon.pc.pvienne.tpcourbes.PolygoneRegulier</node>
+    <node x="0.0" y="212.5">edu.insalyon.pc.pvienne.tpcourbes.Polygone</node>
+    <node x="733.0" y="0.0">edu.insalyon.pc.pvienne.tpcourbes.Point</node>
+    <node x="228.0" y="0.0">edu.insalyon.pc.pvienne.tpcourbes.Courbe</node>
+    <node x="375.0" y="212.0">edu.insalyon.pc.pvienne.tpcourbes.Cercle</node>
+  </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <edges>
+    <edge source="edu.insalyon.pc.pvienne.tpcourbes.Polygone" target="edu.insalyon.pc.pvienne.tpcourbes.Courbe">
+      <point x="0.0" y="-114.5" />
+      <point x="177.5" y="187.0" />
+      <point x="291.25" y="187.0" />
+      <point x="-63.25" y="81.0" />
+    </edge>
+    <edge source="edu.insalyon.pc.pvienne.tpcourbes.PolygoneRegulier" target="edu.insalyon.pc.pvienne.tpcourbes.Polygone">
+      <point x="0.0" y="-136.5" />
+      <point x="0.0" y="114.5" />
+    </edge>
+    <edge source="edu.insalyon.pc.pvienne.tpcourbes.Cercle" target="edu.insalyon.pc.pvienne.tpcourbes.Courbe">
+      <point x="0.0" y="-115.0" />
+      <point x="531.5" y="187.0" />
+      <point x="417.75" y="187.0" />
+      <point x="63.25" y="81.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5363057324840764" x="455.5" y="382.5" />
   <SelectedNodes />
-  <Categories />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
 </Diagram>
 
